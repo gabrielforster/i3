@@ -4,3 +4,4 @@
  - i3blocks
  - thunar
  - rofi 
+ - compton
