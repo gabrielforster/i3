@@ -5,3 +5,4 @@
  - thunar
  - rofi 
  - compton
+ - feh
