@@ -163,8 +163,9 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+  font pango:Ubuntu Nerd Font 8
      #  status_command i3blocks -c ~/.config/i3/i3blocks.conf
-        status_command i3status -c ~/.config/i3/i3status.conf
+    status_command i3status -c ~/.config/i3/i3status.conf
      #  colors {
      #          background $bg-color
      #          #                       border                  background              text
@@ -172,7 +173,7 @@ bar {
      #          inactive_workspace      $inactive-bg-color      $inactive-bg-color      $inactive-text-color
      #          urgent_workspace        $urgent-color           $urgent-color           $text-color
      #  }
-        position bottom
+    position bottom
 }
 
 
