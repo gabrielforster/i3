@@ -166,6 +166,8 @@ bar {
   font pango:Ubuntu Nerd Font 8
      #  status_command i3blocks -c ~/.config/i3/i3blocks.conf
     status_command i3status -c ~/.config/i3/i3status.conf
+    # Pin tray to main DisplayPort monitor regardless of xrandr --primary
+    tray_output DisplayPort-0
      #  colors {
      #          background $bg-color
      #          #                       border                  background              text
